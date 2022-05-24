@@ -1,0 +1,115 @@
+body{
+    background-color: #fef6e2;
+}
+
+.sector-header{
+    background-color: #fef6e2;
+}
+
+.sector-header img{
+    max-width: 100%;
+}
+
+.sector-text{
+    background-color: #8f843a;
+
+
+}
+
+.sector-text .container{
+    background-image: url(../img/flower.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 20%;
+    padding: 100px 0;
+}
+
+.sector-text img{
+    max-width: 80%;
+    margin-left: 6%;
+}
+
+.sector-form{
+    background-color: #8a432b;
+    padding: 100px 0;
+    color: #fef6e2;
+    font-family: 'GFS Didot', serif;
+}
+
+.sector-form .btn{
+    background-color: transparent;
+    border-color: #fef6e2;
+    color: #fef6e2;
+}
+
+input.input-name.form-control {
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    border-radius: 0;
+    color: #fff;
+    margin: 10px 0;
+}
+
+.row-box{
+    position: relative;
+    z-index: 1000;
+}
+
+input.input-name.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff;
+    opacity: 1; /* Firefox */
+  }
+
+.sector-form img.img-title{
+    max-width: 80%;
+}
+
+.sector-footer{
+    background-color: #fef6e2;
+    position: relative;
+}
+
+.sector-footer .container{
+    position: relative;
+}
+
+.sector-footer img{
+    max-width: 100%;
+    position: absolute;
+    top:-300px;
+}
+
+.form-check-input[type=radio]{
+    border-radius: 0;
+}
+
+.form-check-input:checked[type=radio]{
+    background-image: none;
+}
+
+.form-check-input:checked {
+    background-color: #8f843a;
+    border-color: #8f843a;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .sector-text img{
+        margin-left: 10%;
+    }
+
+    .sector-text .container{
+
+        background-size: 30%;
+        padding:60px 0;
+    }
+
+    .sector-footer img{
+        top:-135px;
+    }
+
+    .sector-form{
+        padding: 60px 10px;
+    }
+}
